@@ -37,7 +37,7 @@ class Login extends Component {
         return (
             <div className="login-container">
                 <div className="login-content">
-                    <h1 className="login-title">Login to SpringSocial</h1>
+                    <h1 className="login-title">Login to Biz Brains</h1>
                     <SocialLogin />
                     <div className="or-separator">
                         <span className="or-text">OR</span>
@@ -58,8 +58,7 @@ class SocialLogin extends Component {
                     <img src={googleLogo} alt="Google" /> Log in with Google</a>
                 <a className="btn btn-block social-btn facebook" href={FACEBOOK_AUTH_URL}>
                     <img src={fbLogo} alt="Facebook" /> Log in with Facebook</a>
-                <a className="btn btn-block social-btn github" href={GITHUB_AUTH_URL}>
-                    <img src={githubLogo} alt="Github" /> Log in with Github</a>
+               
             </div>
         );
     }
