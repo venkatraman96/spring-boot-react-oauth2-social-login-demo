@@ -1,8 +1,8 @@
 spring:
     datasource:
-        url: jdbc:mysql://localhost:3306/spring_social?useSSL=false
-        username: root
-        password: callicoder
+        url: jdbc:postgresql://localhost:5432/dev?useSSL=false
+        username: postgres
+        password: postgres
 
     jpa:
         show-sql: true
